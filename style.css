@@ -1,7 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi:wght@500&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+
 }
 html, body {
     width: 100%;
@@ -13,14 +18,16 @@ html, body {
     height: 100%;
     background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 #logo {
     width: 200px;
 }
 #overs{
     display: flex;
+    justify-content: center;
     gap: 5px;
-    font-size: 20pxs;
 }
 .ball {
     width: 30px;
@@ -31,8 +38,6 @@ html, body {
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    margin-right: 10px;
-    margin-top: 40px;
 
 }
 
@@ -43,36 +48,36 @@ html, body {
 
 #team1 {
 background-color: #1d5aa4;
-border-radius: 10px;
-padding: 10px;
+
 
 }
 
 #team2 {
 background-color: #4ea841;
-border-radius: 10px;
-padding: 10px;
+
 }
 
 #teams-container {
     display: flex;
-    gap: 30px;
+    /* gap: 30px;/ */
     text-align: center;
     padding: 70px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .Score-Card {
-    width: 250px;
-    height: 250px;
-    margin: 10px;
-    justify-content: center;
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding: 110px 40px;
+    border-radius: 10px;
     
 }
 .Score-Card h1 {
     font-size: 70px;
     color: white;
-    font-weight: 600;
+
 }
 
 .Score-Card span {
@@ -94,7 +99,7 @@ padding: 10px;
 }
 
 .button {
-    width: 50px;
+    width: 100px;
     
 }
 
